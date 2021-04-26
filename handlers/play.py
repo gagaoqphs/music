@@ -97,7 +97,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 @errors
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 **Processing** Sounds...(Note: Add @AsunaMusic to play music in vc)")
+    lel = await message.reply("🔄 **Processing** Sounds...(Note: Add @BoaHancockMusic to play music in vc)")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
@@ -132,7 +132,7 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton(
                             text="Channel",
-                            url=f"https://t.me/kazutosupport")
+                            url=f"https://t.me/OnePieceSupport")
 
                     ]
                 ]
